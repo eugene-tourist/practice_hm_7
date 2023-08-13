@@ -1,0 +1,340 @@
+/* &display=swap&subset=cyrillic-ext */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap");
+
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    font-size: 16px;
+    /* по умолчанию */
+}
+
+body {
+    line-height: 1;
+    background-color: grey;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+/* ------------------------------ */
+.background-properties div{
+    margin: 30px;
+    padding: 15px;
+    border: 3px solid black;
+}
+
+span{
+    text-transform: uppercase;
+    color: blueviolet;
+    background-color: chocolate;
+    font-size: 24px;
+}
+
+.background-color{
+    background-color: green;
+}
+
+.background-image{
+    min-height: 500px;
+    background-image: url(../img/01.jpg);
+}
+
+.background-image-gradient{
+    background-image: linear-gradient(to bottom, rgba(30, 87, 153, 1) 0%, rgba(125, 185, 232, 0.01) 99%, rgba(125, 185, 232, 0) 100%);;
+    min-height: 300px;
+}
+
+.background-repeat{
+    background-image: url(../img/01.jpg);
+    background-size: 100px 100px;
+    min-height: 300px;
+}
+
+.background-no-repeat{
+    background-image: url(../img/01.jpg);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    min-height: 300px;
+}
+
+.background-position{
+    min-height: 200px;
+    background-image: url(../img/01.jpg);
+    background-size: 100px 100px;
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.background-size{
+    min-height: 200px;
+    background-image: url(../img/01.jpg);
+    background-size: 50px 50px;
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-position: 0 130px;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    background-color: blue;
+    color: red;
+    padding: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px crimson;
+    margin-bottom: 20px;
+}
+
+.span-item{
+    font-size: 16px;
+    color: wheat;
+    background-color: green;
+}
+
+ul{
+    margin-left: 30px;
+}
+
+li{
+    background: url(../img/01.jpg) 100% 0 / 20px 20px no-repeat;
+    margin: 0px 0px 16px 0;
+    max-width: 200px;
+    padding-right: 30px;
+
+}
+/* !..............LAYOUT'S BLOCKS.................*/
+
+.list {
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #4B4B4B;
+}
+
+.list-item-1{
+    background: url(../img/contacts/01.png) 0 2px no-repeat;
+    line-height: 142%;
+    padding-left: 34px;
+    max-width: 200px;
+    padding-right: 0px;
+}
+.list-item-2 {
+    background: url(../img/contacts/02.png) 0 2px no-repeat;
+    line-height: 142%;
+    padding-left: 34px;
+    max-width: 200px;
+    padding-right: 0px;
+}
+.list-item-3 {
+    background: url(../img/contacts/03.png) 0 2px no-repeat;
+    line-height: 142%;
+    padding-left: 34px;
+    max-width: 200px;
+    padding-right: 0px;
+}
+.list-item-4 {
+    background: url(../img/contacts/04.png) 0 2px no-repeat;
+    line-height: 142%;
+    padding-left: 34px;
+    max-width: 215px;
+    padding-right: 0px;
+}
+
+.task-3-top-block {
+    background: url(../img/top_block/background.png) center / cover no-repeat;
+    margin-bottom: 50px;
+}
+
+.task-3-block {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.task-3-title {
+    max-width: 583px;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%;
+    color: White;
+    margin-top: 293px;
+    margin-bottom: 48px;
+}
+
+.task-3-link {
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 200%;
+    letter-spacing: 0.15px;
+    text-transform: uppercase;
+    color: var(--neutral-white, #FFF);
+    display: inline-block;
+    padding: 9px 43px 9px 10px;
+    background: url(../img/top_block/button.png) 100% 50% no-repeat, #C40B0B;
+    margin-bottom: 312px;
+    max-width: 211px;
+}
+/* TASK 4 OUR IMPACT */
+.task-4-additional-block {
+    margin-bottom: 100px;
+}
+
+.task-4-block-our-impact {
+    background: url(../img/our_impact/background.png) center / cover no-repeat, #02133C;
+    margin-top: 300px;
+}
+
+.our-impact {
+    max-width: 1020px;
+    margin: 0 auto;
+    border: 1px solid transparent;
+}
+
+.our-impact-text-content {
+    max-width: 411px;
+    margin-bottom: 75px;
+    display: inline-block;
+    margin-top: 112px;
+    margin-right: 94px;
+}
+
+.our-impact-subtitle {
+    color: #D5D5D5;
+    background: url(../img/our_impact/icon.png) 0 -2px no-repeat;
+    padding-left: 34px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 200%;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.our-impact-title {
+    color: #FFFFFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 116%;
+}
+
+img{
+    margin-top: -87px;
+}
+
+.our-impact-items {
+    margin-bottom: 212px;
+}
+
+h3{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 116%;
+    color: #C40B0B;
+}
+.our-impact-text {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.15px;
+    color: #F5F5F5;
+}
+
+.our-impact-item-1 {
+    background: url(../img/our_impact/items_01-04/01.png) no-repeat;
+    display: inline-block;
+    padding-left: 88px;
+    margin-right: 50px;
+    min-height: 76px;
+    max-width: 237px;
+    vertical-align: top;
+}
+
+
+
+.our-impact-item-2 {
+    background: url(../img/our_impact/items_01-04/02.png)   no-repeat;
+    display: inline-block;
+    padding-left: 88px;
+    margin-right: 50px;
+    min-height: 76px;
+    max-width: 237px;
+    vertical-align: top;
+}
+
+.our-impact-item-3 {
+    background: url(../img/our_impact/items_01-04/03.png) no-repeat;
+    display: inline-block;
+    padding-left: 88px;
+    margin-right: 50px;
+    min-height: 76px;
+    max-width: 237px;
+    vertical-align: top;
+}
+
+.our-impact-item-4 {
+    background: url(../img/our_impact/items_01-04/04.png) no-repeat;
+    display: inline-block;
+    padding-left: 88px;
+    max-width: 237px;
+    min-height: 76px;
+    vertical-align: top;
+}
+
+
+
+
